@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:#1e293b;
+  position:sticky;
+  top:0;
+}
+
+nav input{
+  padding:8px;
+  border-radius:20px;
+  border:none;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:60px 20px;
+  background:linear-gradient(to right,#38bdf8,#6366f1);
+}
+
+.hero h1{
+  font-size:40px;
+}
+
+.hero p{
+  margin:10px 0;
+}
+
+.hero button{
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+  background:#0f172a;
+  color:white;
+  cursor:pointer;
+}
+
+/* PRODUCTS */
+#productsSection{
+  padding:30px;
+  text-align:center;
+}
+
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card{
+  background:#1e293b;
+  margin:15px;
+  padding:15px;
+  border-radius:15px;
+  width:220px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.card button{
+  margin-top:10px;
+  background:#38bdf8;
+  border:none;
+  padding:8px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+/* CART */
+#cart{
+  position:fixed;
+  right:10px;
+  top:80px;
+  background:#334155;
+  padding:15px;
+  border-radius:10px;
+  width:250px;
+  max-height:80vh;
+  overflow:auto;
+}
+
+.checkout{
+  width:100%;
+  margin-top:10px;
+  background:#22c55e;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:15px;
+  background:#1e293b;
+  margin-top:20px;
+}
